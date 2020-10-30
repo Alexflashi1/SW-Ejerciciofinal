@@ -1,0 +1,133 @@
+
+article{
+	background: transparent;
+	display: inline-block;
+	width: 420px;
+	font-size: 14px;
+	margin-right: 50px;
+	margin-left: 150px;
+	text-align: justify;
+	color: white;
+	text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+}
+h1{
+	text-align: center;
+	margin-bottom: 5px;
+	color: white;
+  text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+}
+section{
+	background-image: url('fondo.jpg');
+}
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body{
+  font-family: montserrat;
+
+}
+nav{
+  background: #0082e6;
+  height: 80px;
+  width: 100%;
+}
+label.logo{
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a{
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+a.active,a:hover{
+  background: #1b9bff;
+  transition: .5s;
+}
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+@media (max-width: 952px){
+  h1{
+    font-size: 10px;
+  }
+	.empleo{
+		width: 120px;
+		height: 80px;
+	}
+
+  label.logo{
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+}
+@media (max-width: 858px){
+	article{
+	background: transparent;
+	display: inline-block;
+	width: 240px;
+	font-size: 8px;
+	margin-right: 05px;
+	margin-left: 20px;
+	text-align: justify;
+}
+	
+  nav ul{
+  float: left;
+  margin-right: 0px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 60px;
+  margin: 0 5px;
+}
+nav ul li a{
+  color: white;
+  font-size: 12px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+@media(max-width: 700px){
+	article{
+	background: transparent;
+	display: inline-block;
+	width: 140px;
+	font-size: 8px;
+	margin-right: 05px;
+	margin-left: 20px;
+	text-align: justify;
+}
+  
+}
